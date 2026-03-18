@@ -1,0 +1,14 @@
+[
+  {
+    "name": "usedfiles",
+    "path": "/Files",
+    "target": {
+      "type": "AmazonS3",
+      "amazonS3": {
+        "connectionId": "6114ebe0-b5ba-4eed-8519-2987bee70e21",
+        "location": "s3://pharmapockalpana",
+        "subpath": "/usedfiles"
+      }
+    }
+  }
+]
