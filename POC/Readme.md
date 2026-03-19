@@ -14,7 +14,9 @@ I.	The patient details with his encounter details into the gold_encounter.
 II.	Patient details with his medication details into gold_medication.
 III.	Patient details with his procedure details into gold_procedure.  
 3.	Gold layer:
-Now the gold lakehouse has 3 files as gold_encounter, gold_medication, gold_procedure which are ready for the further analysis. 
+Now the gold lakehouse has 3 files as gold_encounter, gold_medication, gold_procedure which are ready for the further analysis.
+<img width="481" height="515" alt="image" src="https://github.com/user-attachments/assets/22f757b3-7d3e-4906-9e9d-bba9c513fbe6" />
+
 
  
 This way, I implemented a Medallion architecture where raw data is ingested into Bronze, cleaned and standardized in Silver, and aggregated into Gold tables like Patient 360 for analytics. I ensured proper handling of nulls, avoided join explosion using aggregation, and stored results as Delta tables for efficient querying.
