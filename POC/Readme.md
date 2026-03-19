@@ -1,4 +1,5 @@
-MS Fabric POC on Pharma
+MS Fabric POC on Pharma:
+
 I have used 4 files from patient perspective named as Patient, Encounters, Medications & Procedures.
 The patient file has patient’s personal information as name, gender, DOB.
 The encounter file has patient’s hospital visit details for each visit.
